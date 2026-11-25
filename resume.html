@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume | Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">MyPortfolio<span>.</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html">Home</a><a class="active" href="resume.html">Resume</a><a href="biodata.html">Bio-data</a>
+    </nav>
+  </header>
+
+  <main class="page-wrap">
+    <div class="page-title-row">
+      <div><p class="eyebrow">CAREER PROFILE</p><h1>My Resume</h1><p class="muted">A snapshot of my education, abilities and accomplishments.</p></div>
+      <button class="button primary no-print" id="printBtn">Print / Save PDF</button>
+    </div>
+
+    <section class="resume-top panel">
+      <div><h2>KUMARASWAMY KR</h2><p class="role">B.E. – Computer Science and Engineering</p><p>Hassan, Karnataka, India · <a href="mailto:kumarkumarswamy82@gmail.com">kumarkumarswamy82@gmail.com</a> · +91 9141079542</p></div>
+    </section>
+
+    <div class="resume-layout">
+      <div class="main-column">
+        <section class="panel content-section">
+          <h2>Career Objective</h2>
+          <p>Motivated and responsible student seeking opportunities to apply technical knowledge, strengthen problem-solving abilities and contribute to meaningful projects while continuing to learn.</p>
+        </section>
+        <section class="panel content-section">
+          <h2>Educational Qualifications</h2>
+          <div class="timeline-item"><h3>B.E. – Computer Science and Engineering</h3><p class="muted">RAJEEV INSTITUTE OF TECHNOLOGY AND ENGINEERING | 5th Semester (Currently pursuing)</p><p>CGPA: 8.6</p></div>
+          <div class="timeline-item"><h3>PUC</h3><p class="muted">BRILLIANT PU COLLEGE | [Year]</p><p>Percentage: 89%</p></div>
+          <div class="timeline-item"><h3>SSLC</h3><p class="muted">CKS ENGLISH SCHOOL | [Year]</p><p>Percentage: 73% (CBSE)</p></div>
+        </section>
+        <section class="panel content-section">
+          <h2>Projects</h2>
+          <div class="timeline-item"><h3>[Project Title]</h3><p>Developed [briefly describe your project, its purpose, technologies used and your contribution].</p></div>
+          <div class="timeline-item"><h3>[Second Project — optional]</h3><p>[Add another academic or personal project, if applicable.]</p></div>
+        </section>
+        <section class="panel content-section">
+          <h2>Achievements & Certifications</h2>
+          <ul class="clean-list"><li>Frontend and backend developer</li><li>[Online course / certification and issuing platform]</li><li>[Workshop, seminar or volunteering experience]</li></ul>
+        </section>
+      </div>
+      <aside class="side-column">
+        <section class="panel content-section"><h2>Technical Skills</h2>
+          <div class="skill"><span>Java</span><div class="skill-track"><i style="width:70%"></i></div></div>
+          <div class="skill"><span>JavaScript</span><div class="skill-track"><i style="width:65%"></i></div></div>
+          <div class="skill"><span>SQL</span><div class="skill-track"><i style="width:65%"></i></div></div>
+          <h3 style="font:700 1rem 'Manrope',sans-serif;margin:22px 0 8px">Tools</h3>
+          <ul class="clean-list"><li>GitHub</li><li>Git</li></ul>
+          <p class="small muted">Adjust skill levels to reflect your actual abilities.</p></section>
+        <section class="panel content-section"><h2>Soft Skills</h2><ul class="clean-list"><li>Communication</li><li>Teamwork</li><li>Problem solving</li><li>Time management</li><li>Adaptability</li></ul></section>
+        <section class="panel content-section"><h2>Languages</h2><p>English, Kannada</p></section>
+        <section class="panel content-section"><h2>Interests</h2><p>Reading books, Sports, Drawing</p></section>
+      </aside>
+    </div>
+  </main>
+  <footer class="footer"><p>© <span id="year"></span> KUMARASWAMY KR.</p></footer>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Student portfolio, resume and bio-data website">
+  <title>Home | Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">MyPortfolio<span>.</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="resume.html">Resume</a>
+      <a href="biodata.html">Bio-data</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">STUDENT • DEVELOPER • LEARNER</p>
+        <h1>Hello, I'm <span>KUMARASWAMY KR</span></h1>
+        <p class="hero-text">Welcome to my personal website. Explore my resume, education, technical skills, achievements and personal profile.</p>
+        <div class="actions">
+          <a class="button primary" href="resume.html">View Resume</a>
+          <a class="button secondary" href="biodata.html">View Bio-data</a>
+        </div>
+      </div>
+      <div class="profile-card">
+        <div class="avatar" aria-hidden="true">KR</div>
+        <h2>KUMARASWAMY KR</h2>
+        <p>B.E. – Computer Science and Engineering</p>
+        <p class="muted">RAJEEV INSTITUTE OF TECHNOLOGY AND ENGINEERING</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About this website</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">01</div><h3>Resume</h3><p>My academic background, skills, projects and achievements in a professional format.</p><a href="resume.html">Explore resume →</a></article>
+        <article class="feature-card"><div class="feature-icon">02</div><h3>Bio-data</h3><p>My personal details, interests, contact information and declaration.</p><a href="biodata.html">Explore bio-data →</a></article>
+        <article class="feature-card"><div class="feature-icon">03</div><h3>Contact</h3><p>Reach out to me for academic, internship or collaboration opportunities.</p><a href="biodata.html#contact">Contact details →</a></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><p>© <span id="year"></span> KUMARASWAMY KR. Created using HTML, CSS and JavaScript.</p></footer>
+</body>
+</html>
